@@ -46,7 +46,7 @@ Please always keep in mind that we want to create a responsive font.
 ## House rules (the "thou-shalt-nots")
 
 - ~~Overwrite other designs~~
-- ~~Discrimination of all sorts~~
+- ~~Discrimination of any sort~~
 - ~~Offensive content~~
 
 ## Raffle Time!
