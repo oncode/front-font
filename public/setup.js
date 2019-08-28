@@ -4,7 +4,7 @@ const texts = [
   "How vexingly quick daft zebras jump"
 ];
 
-const title = "DESIGN FRONT FONT";
+const title = "FRONT FONT STYLEGUIDE";
 
 title
   .toUpperCase()
@@ -15,7 +15,7 @@ title
     const letterElement = document.createElement(`letter-${actualLetter}`);
     letterElement.classList.add("letter-element");
     const containerDiv = document.createElement("div");
-    containerDiv.classList.add("h1-wrapper");
+    containerDiv.classList.add("h2-wrapper");
     containerDiv.appendChild(letterElement);
     document.getElementById("textContainer-h2-title").appendChild(containerDiv);
   });

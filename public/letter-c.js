@@ -2,11 +2,12 @@ import { html, render } from "https://unpkg.com/lit-html?module";
 
 const htmlTemplate = () => html`
   <style>
-    img {
-      width: 80%;
+    .letter {
     }
   </style>
-  <img src="/letter-c.svg" alt="c" />
+  <span class="letter">
+    C
+  </span>
 `;
 
 class LetterC extends HTMLElement {
