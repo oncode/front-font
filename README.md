@@ -53,6 +53,8 @@ Please always keep in mind that we want to create a responsive font.
 
 On Friday after 17:00
 
+Prize: [Mi Electric Scooter](https://www.mi.com/global/mi-electric-scooter/)
+
 ## Where
 
 At the Deep Impact stand.
