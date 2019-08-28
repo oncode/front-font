@@ -43,7 +43,7 @@ Please always keep in mind that we want to create a responsive font.
 - Don't specify the font-size for the characters
 - Be creative :)
 
-## House rules (the "thou-shalt-nots")
+## House rules (the thou-shalt-nots)
 
 - ~~Overwrite other designs~~
 - ~~Discrimination of any sort~~
