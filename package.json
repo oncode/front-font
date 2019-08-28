@@ -10,7 +10,6 @@
     "format": "prettier --write \"public/**/*.{js,html,svg,css}\""
   },
   "dependencies": {
-    "lit-html": "1.1.2",
     "serve": "11.1.0"
   },
   "devDependencies": {
