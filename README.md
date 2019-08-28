@@ -41,7 +41,7 @@ Please keep in mind that we want to create a responsive font.
 - You can render images with strange aspect ratios as a background on a `<div>&nbsp;</div>`
 - Don't use iframes
 - Don't specify the font-size for the characters
-- Just do it :)
+- No need to overthink, just go for it :)
 
 ## Two House Rules (thou-shalt-nots)
 
