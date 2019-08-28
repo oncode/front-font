@@ -1056,6 +1056,71 @@ body {
   height: 315px;
   font-size: 260px;
   overflow: hidden;
+  font-family: "Roboto Mono", monospace;
+}
+
+.h2-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  margin-left: 2px;
+  margin-right: 2px;
+  height: 92px;
+  font-size: 76px;
+  overflow: hidden;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.h3-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  margin-left: 2px;
+  margin-right: 2px;
+  height: 73px;
+  font-size: 60px;
+  overflow: hidden;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.h4-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33px;
+  margin-left: 2px;
+  margin-right: 2px;
+  height: 54px;
+  font-size: 44px;
+  overflow: hidden;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.h5-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  margin-left: 2px;
+  margin-right: 2px;
+  height: 39px;
+  font-size: 28px;
+  overflow: hidden;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.h6-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9px;
+  margin-left: 2px;
+  margin-right: 2px;
+  height: 15px;
+  font-size: 12px;
+  overflow: hidden;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -1112,13 +1177,13 @@ body {
 .textContainer-h1-title {
   max-width: 1700px;
   margin: 20px auto 20px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 .scrollingContainer {
   display: block;
   width: 100%;
-  height: 70vh;
+  height: 90vh;
   position: relative;
   overflow: hidden;
 }
@@ -1131,17 +1196,16 @@ body {
   box-sizing: border-box;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-120%, -50%);
-  animation: scrolling 60s linear infinite;
+  transform: translate(100vw, -50%);
+  animation: scrolling 40s linear infinite;
 }
 
 @keyframes scrolling {
   0% {
-    transform: translate(50%, -50%);
+    transform: translate(100vw, -50%);
   }
   100% {
-    transform: translate(-150%, -50%);
+    transform: translate(-100%, -50%);
   }
 }
 
