@@ -1099,7 +1099,7 @@ body {
 .textContainer-h1-title {
   max-width: 1700px;
   margin: 20px auto 20px;
-  font-family: monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .scrollingContainer {

@@ -1,15 +1,13 @@
 import { html, render } from "https://unpkg.com/lit-html?module";
 
 const htmlTemplate = () => html`
-	<style>
-	.letter {
-	font-family: monospace;
-
-	}
-	</style>
-	<span class="letter">
-	F
-	</span>
+  <style>
+    .letter {
+    }
+  </style>
+  <span class="letter">
+    F
+  </span>
 `;
 
 class LetterF extends HTMLElement {

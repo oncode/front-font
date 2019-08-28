@@ -3,8 +3,6 @@ import { html, render } from "https://unpkg.com/lit-html?module";
 const htmlTemplate = () => html`
   <style>
     .letter {
-      font-family: monospace;
-
     }
   </style>
   <span class="letter">
