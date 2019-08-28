@@ -20,20 +20,6 @@ title
     document.getElementById("textContainer-h2-title").appendChild(containerDiv);
   });
 
-// text
-//   .toUpperCase()
-//   .split("")
-//   .forEach(letter => {
-//     const actualLetter = letter === " " ? "space" : letter;
-
-//     const letterElement = document.createElement(`letter-${actualLetter}`);
-//     letterElement.classList.add("letter-element");
-//     const containerDiv = document.createElement("div");
-//     containerDiv.classList.add("h1-wrapper");
-//     containerDiv.appendChild(letterElement);
-//     document.getElementById("textContainer-h1").appendChild(containerDiv);
-//   });
-
 texts.forEach((text, index) => {
   text
     .toUpperCase()
