@@ -1,5 +1,5 @@
 {
-  "name": "front-font-internal",
+  "name": "front-font",
   "builds": [
     { "src": "/public/*", "use": "@now/static", "config": { "distDir": "" } }
   ],
