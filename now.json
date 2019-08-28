@@ -1,0 +1,9 @@
+{
+  "name": "front-font-internal",
+  "builds": [
+    { "src": "/public/*", "use": "@now/static", "config": { "distDir": "" } }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "public/$1" }
+  ]
+}
