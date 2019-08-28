@@ -48,6 +48,8 @@ Please always keep in mind that we want to create a responsive font.
 - ~~Overwrite other designs~~
 - ~~Add hurtful, discriminatory, or offensice content~~
 
+In other words: be nice!
+
 
 ## Raffle Time!
 
