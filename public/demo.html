@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>FRONT FONT DEMO</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="/letter-a.js"></script>
+    <script type="module" src="/letter-b.js"></script>
+    <script type="module" src="/letter-c.js"></script>
+    <script type="module" src="/letter-d.js"></script>
+    <script type="module" src="/letter-e.js"></script>
+    <script type="module" src="/letter-f.js"></script>
+    <script type="module" src="/letter-g.js"></script>
+    <script type="module" src="/letter-h.js"></script>
+    <script type="module" src="/letter-i.js"></script>
+    <script type="module" src="/letter-j.js"></script>
+    <script type="module" src="/letter-k.js"></script>
+    <script type="module" src="/letter-l.js"></script>
+    <script type="module" src="/letter-m.js"></script>
+    <script type="module" src="/letter-n.js"></script>
+    <script type="module" src="/letter-o.js"></script>
+    <script type="module" src="/letter-p.js"></script>
+    <script type="module" src="/letter-q.js"></script>
+    <script type="module" src="/letter-r.js"></script>
+    <script type="module" src="/letter-s.js"></script>
+    <script type="module" src="/letter-t.js"></script>
+    <script type="module" src="/letter-u.js"></script>
+    <script type="module" src="/letter-v.js"></script>
+    <script type="module" src="/letter-w.js"></script>
+    <script type="module" src="/letter-x.js"></script>
+    <script type="module" src="/letter-y.js"></script>
+    <script type="module" src="/letter-z.js"></script>
+    <script type="module" src="/letter-space.js"></script>
+</head>
+
+<body>
+    <header class="text-center header">
+        <div class="scrollingContainer">
+            <div class="demo" id="textContainer-h2-demo">
+                <style>
+                    .h1-wrapper {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 88px;
+                        margin-left: 2px;
+                        margin-right: 2px;
+                        height: 146px;
+                        font-size: 120px;
+                        overflow: hidden;
+                    }
+                </style>
+            </div>
+        </div>
+    </header>
+    <script>
+        const demo = "ORANGE JUICE IS SO AWESOME";
+        demo
+            .toUpperCase()
+            .split("")
+            .forEach(letter => {
+                const actualLetter = letter === " " ? "space" : letter;
+
+                const letterElement = document.createElement(`letter-${actualLetter}`);
+                letterElement.classList.add("letter-element");
+                const containerDiv = document.createElement("div");
+                containerDiv.classList.add("h1-wrapper");
+                containerDiv.appendChild(letterElement);
+                document.getElementById("textContainer-h2-demo").appendChild(containerDiv);
+            });
+    </script>
+
+</body>
+
+</html>

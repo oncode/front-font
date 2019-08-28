@@ -1,12 +1,15 @@
 import { html, render } from "https://unpkg.com/lit-html?module";
 
 const htmlTemplate = () => html`
-  <style>
-    img {
-      width: 80%;
-    }
-  </style>
-  <img src="/letter-e.svg" alt="E" />
+	<style>
+	.letter {
+	font-family: monospace;
+
+	}
+	</style>
+	<span class="letter">
+	E
+	</span>
 `;
 
 class LetterE extends HTMLElement {
