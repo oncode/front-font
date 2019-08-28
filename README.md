@@ -33,25 +33,29 @@ const htmlTemplate = () => html`
 ```
 Please only work on one character per pull request and don't change any of the other files. You are allowed to add other files for example `.svg` files in the public folder, if you need them for your character design. Pull requests that don't adhere to the guidelines will not be merged.
 
-## Tipps and Tricks
-Please always keep in mind that we want to create a responsive font.
+## Tips and Tricks
+Please note that we want to create a responsive "font".
 
-- Don't use fixed `width` and `height` in your css, always use percentages
+- Don't use fixed `width` and `height` in your css, use percentages
 - If you use `svgs`, render them with `<img src="/your-svg.svg"` to make it responsive
 - You can render images with strange aspect ratios as a background on a `<div>&nbsp;</div>`
 - Don't use iframes
 - Don't specify the font-size for the characters
-- Be creative :)
+- No need to overthink, just go for it :)
 
-## House rules (the "thou-shalt-nots")
+## Two House Rules (thou-shalt-nots)
 
-- ~~Overwrite other designs~~
-- ~~Discrimination of all sorts~~
-- ~~Offensive content~~
+- Don't overwrite other designs
+- Don't add hurtful, discriminatory, or offensive content
+
+In short: be nice!
+
 
 ## Raffle Time!
 
 On Friday after 17:00
+
+Prize: [Mi Electric Scooter](https://www.mi.com/global/mi-electric-scooter/)
 
 ## Where
 
