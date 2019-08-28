@@ -6,7 +6,7 @@ Design your own customized character and contribute it to the Front Font. If you
 
 To contribute please follow the below steps:
 
-1. Clone the repo `git@github.com:DEEP-IMPACT-AG/front-font-internal.git`
+1. Clone the repo `git@github.com:DEEP-IMPACT-AG/front-font.git`
 2. Choose a letter you want to customize
 3. Create your own branch and work on the letter
 3. After you're finished create a pull request to master
