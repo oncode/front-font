@@ -1,7 +1,7 @@
 const texts = [
   "The quick brown fox jumps over the lazy dog",
   "Pack my box with five dozen liquor jugs",
-  "How vexingly quick daft zebras jump"
+  "How vexingly quick daft zebras jump",
 ];
 
 const title = "FRONT FONT STYLEGUIDE";
@@ -9,7 +9,7 @@ const title = "FRONT FONT STYLEGUIDE";
 title
   .toUpperCase()
   .split("")
-  .forEach(letter => {
+  .forEach((letter) => {
     const actualLetter = letter === " " ? "space" : letter;
 
     const letterElement = document.createElement(`letter-${actualLetter}`);
@@ -38,7 +38,7 @@ texts.forEach((text, index) => {
   text
     .toUpperCase()
     .split("")
-    .forEach(letter => {
+    .forEach((letter) => {
       const actualLetter = letter === " " ? "space" : letter;
 
       const letterElement = document.createElement(`letter-${actualLetter}`);
@@ -54,7 +54,7 @@ texts.forEach((text, index) => {
   text
     .toUpperCase()
     .split("")
-    .forEach(letter => {
+    .forEach((letter) => {
       const actualLetter = letter === " " ? "space" : letter;
 
       const letterElement = document.createElement(`letter-${actualLetter}`);
@@ -70,7 +70,7 @@ texts.forEach((text, index) => {
   text
     .toUpperCase()
     .split("")
-    .forEach(letter => {
+    .forEach((letter) => {
       const actualLetter = letter === " " ? "space" : letter;
 
       const letterElement = document.createElement(`letter-${actualLetter}`);
@@ -86,7 +86,7 @@ texts.forEach((text, index) => {
   text
     .toUpperCase()
     .split("")
-    .forEach(letter => {
+    .forEach((letter) => {
       const actualLetter = letter === " " ? "space" : letter;
 
       const letterElement = document.createElement(`letter-${actualLetter}`);
@@ -102,7 +102,7 @@ texts.forEach((text, index) => {
   text
     .toUpperCase()
     .split("")
-    .forEach(letter => {
+    .forEach((letter) => {
       const actualLetter = letter === " " ? "space" : letter;
 
       const letterElement = document.createElement(`letter-${actualLetter}`);

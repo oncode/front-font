@@ -9,13 +9,13 @@ const htmlTemplate = () => html`
     }
 
     @keyframes spinn {
-        0% {
-          transform: rotateZ(0);
-        }
-        100% {
-          transform: rotateZ(-360deg);
-        }
+      0% {
+        transform: rotateZ(0);
       }
+      100% {
+        transform: rotateZ(-360deg);
+      }
+    }
   </style>
   <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
     <path
