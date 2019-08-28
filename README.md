@@ -46,7 +46,7 @@ Please always keep in mind that we want to create a responsive font.
 ## Two House Rules (thou-shalt-nots)
 
 - Don't overwrite other designs
-- Don't add hurtful, discriminatory, or offensice content
+- Don't add hurtful, discriminatory, or offensive content
 
 In short: be nice!
 
