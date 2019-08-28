@@ -4,7 +4,7 @@ Design your own customized character and contribute it to the Front Font. If you
 
 ## How to contribute?
 
-To contribute please follow the below steps:
+To contribute please follow these steps:
 
 1. Clone the repo `git@github.com:DEEP-IMPACT-AG/front-font.git`
 2. Choose a letter you want to customize
@@ -42,13 +42,13 @@ Please always keep in mind that we want to create a responsive font.
 - Don't specify the font-size for the characters
 - Be creative :)
 
-## What not to do?
+## House rules (the "thou-shalt-nots")
 
-- ~~overwrite other designs~~
+- ~~Overwrite other designs~~
 - ~~Discrimination of all sorts~~
-- ~~Nudes~~
+- ~~Offensive content~~
 
-## When
+## Raffle Time!
 
 On Friday after 17:00
 
