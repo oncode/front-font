@@ -43,11 +43,11 @@ Please always keep in mind that we want to create a responsive font.
 - Don't specify the font-size for the characters
 - Be creative :)
 
-## House rules (the thou-shalt-nots)
+## Two House Rules (thou-shalt-nots)
 
 - ~~Overwrite other designs~~
-- ~~Discrimination of any sort~~
-- ~~Offensive content~~
+- ~~Add hurtful, discriminatory, or offensice content~~
+
 
 ## Raffle Time!
 
