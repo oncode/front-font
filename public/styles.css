@@ -1034,7 +1034,7 @@ body {
   height: 80px;
 }
 
-.h1-wrapper {
+/* .h1-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1044,6 +1044,19 @@ body {
   height: 146px;
   font-size: 120px;
   overflow: hidden;
+} */
+
+.h1-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 189px;
+  margin-left: 2px;
+  margin-right: 2px;
+  height: 315px;
+  font-size: 260px;
+  overflow: hidden;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .letter-element {
@@ -1119,8 +1132,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  animation: scrolling 30s linear infinite;
+  transform: translate(-120%, -50%);
+  animation: scrolling 60s linear infinite;
 }
 
 @keyframes scrolling {
