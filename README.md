@@ -1,11 +1,11 @@
-# Let's Group-design a `Front-Font`! (And Win an E-Scooter.)
-(Ok, not an actual typeface :-) )
+# Group-design a `Front-Font`. Win an E-Scooter.
+(Ok, not an actual typeface, just a sweet mess of web code and graphics :-) )
 
-Design your own customized character and contribute it to the Front Font. If you participate you will automatically take part in a raffle for an electric scooter. Show off your skills, take a creative time-out from the talks, !
+Design your own customized character and contribute it to the Front Font. If you participate you will automatically take part in a raffle for an electric scooter. Show off your skills, take a creative time-out from the talks, or just have some fun!
 
 ## How to contribute?
 
-To contribute please follow these steps:
+Please follow these steps:
 
 1. Clone the repo `git@github.com:DEEP-IMPACT-AG/front-font.git`
 2. Choose a letter you want to customize
