@@ -33,15 +33,15 @@ const htmlTemplate = () => html`
 ```
 Please only work on one character per pull request and don't change any of the other files. You are allowed to add other files for example `.svg` files in the public folder, if you need them for your character design. Pull requests that don't adhere to the guidelines will not be merged.
 
-## Tipps and Tricks
-Please always keep in mind that we want to create a responsive font.
+## Tips and Tricks
+Please keep in mind that we want to create a responsive font.
 
-- Don't use fixed `width` and `height` in your css, always use percentages
+- Don't use fixed `width` and `height` in your css, use percentages
 - If you use `svgs`, render them with `<img src="/your-svg.svg"` to make it responsive
 - You can render images with strange aspect ratios as a background on a `<div>&nbsp;</div>`
 - Don't use iframes
 - Don't specify the font-size for the characters
-- Be creative :)
+- Just do it :)
 
 ## Two House Rules (thou-shalt-nots)
 
