@@ -45,10 +45,10 @@ Please always keep in mind that we want to create a responsive font.
 
 ## Two House Rules (thou-shalt-nots)
 
-- ~~Overwrite other designs~~
-- ~~Add hurtful, discriminatory, or offensice content~~
+- Don't overwrite other designs
+- Don't add hurtful, discriminatory, or offensice content
 
-In other words: be nice!
+In short: be nice!
 
 
 ## Raffle Time!
