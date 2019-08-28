@@ -1,7 +1,7 @@
-# Let's Design a Front Font! 
-# (And Have Fun. And Win an E-Scooter.)
+# Let's Group-design a `Front-Font`! (And Win an E-Scooter.)
+(Ok, not an actual typeface :-) )
 
-Design your own customized character and contribute it to the Front Font. If you participate you will automatically take part in a raffle for an electric scooter. Show off your skills, be creative and have fun!
+Design your own customized character and contribute it to the Front Font. If you participate you will automatically take part in a raffle for an electric scooter. Show off your skills, take a creative time-out from the talks, !
 
 ## How to contribute?
 
