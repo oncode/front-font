@@ -3,7 +3,7 @@
 
 Design your own customized character and contribute it to the Front Font. If you participate you will automatically take part in a raffle for an electric scooter. Show off your skills, take a creative time-out from the talks, or just have some fun!
 
-## How to contribute?
+## How to contribute? 
 
 Please follow these steps:
 
