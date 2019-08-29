@@ -1197,7 +1197,7 @@ body {
   position: absolute;
   top: 50%;
   transform: translate(100vw, -50%);
-  animation: scrolling 40s linear infinite;
+  animation: scrolling 15s linear infinite;
 }
 
 @keyframes scrolling {
