@@ -3,7 +3,7 @@ import { html, render } from "https://unpkg.com/lit-html?module";
 const htmlTemplate = () => html`
   <style>
     .svg {
-      width: 100%;
+      width: 90%;
       display: block;
       animation: spinn 3s infinite linear;
     }
