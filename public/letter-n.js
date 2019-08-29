@@ -37,7 +37,7 @@ const htmlTemplate = () => html`
       background-color: red;
       top: 0;
       left: 0.3rem;
-      animation: moveBefore 1s ease forwards;
+      animation: moveBefore 1s ease infinite alternate;
     }
     .letter::after {
       content: "";
@@ -46,7 +46,7 @@ const htmlTemplate = () => html`
       height: 0.3rem;
       background-color: red;
       top: 0;
-      animation: moveAfter 1s ease forwards;
+      animation: moveAfter 1s ease infinite alternate;
       left: -2rem;
     }
     .dash {
