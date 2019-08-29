@@ -4,7 +4,6 @@
   "main": "index.js",
   "repository": "git@github.com:DEEP-IMPACT-AG/front-font-internal.git",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "dev": "browser-sync start --server \"public\" --files \"public\"",
     "start": "serve public",
