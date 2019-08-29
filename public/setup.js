@@ -12,18 +12,29 @@ const actualLetter = (l) => {
   return l;
 };
 
-title
-  .toUpperCase()
-  .split("")
-  .forEach((letter) => {
+const drawLetter = ({ letter, className, rootElementId }) => {
+  const rootEl = document.getElementById(rootElementId);
+  if (rootEl) {
     const letterElement = document.createElement(
       `letter-${actualLetter(letter)}`,
     );
     letterElement.classList.add("letter-element");
     const containerDiv = document.createElement("div");
-    containerDiv.classList.add("h2-wrapper");
+    containerDiv.classList.add(className);
     containerDiv.appendChild(letterElement);
-    document.getElementById("textContainer-h2-title").appendChild(containerDiv);
+    rootEl.appendChild(containerDiv);
+  }
+};
+
+title
+  .toUpperCase()
+  .split("")
+  .forEach((letter) => {
+    drawLetter({
+      letter,
+      className: "h2-wrapper",
+      rootElementId: "textContainer-h2-title",
+    });
   });
 
 texts.forEach((text, index) => {
@@ -31,79 +42,54 @@ texts.forEach((text, index) => {
     .toUpperCase()
     .split("")
     .forEach((letter) => {
-      const letterElement = document.createElement(
-        `letter-${actualLetter(letter)}`,
-      );
-      letterElement.classList.add("letter-element");
-      const containerDiv = document.createElement("div");
-      containerDiv.classList.add("h2-wrapper");
-      containerDiv.appendChild(letterElement);
-      document
-        .getElementById(`textContainer-h2-${index}`)
-        .appendChild(containerDiv);
+      drawLetter({
+        letter,
+        className: "h2-wrapper",
+        rootElementId: `textContainer-h2-${index}`,
+      });
     });
 
   text
     .toUpperCase()
     .split("")
     .forEach((letter) => {
-      const letterElement = document.createElement(
-        `letter-${actualLetter(letter)}`,
-      );
-      letterElement.classList.add("letter-element");
-      const containerDiv = document.createElement("div");
-      containerDiv.classList.add("h3-wrapper");
-      containerDiv.appendChild(letterElement);
-      document
-        .getElementById(`textContainer-h3-${index}`)
-        .appendChild(containerDiv);
+      drawLetter({
+        letter,
+        className: "h3-wrapper",
+        rootElementId: `textContainer-h3-${index}`,
+      });
     });
 
   text
     .toUpperCase()
     .split("")
     .forEach((letter) => {
-      const letterElement = document.createElement(
-        `letter-${actualLetter(letter)}`,
-      );
-      letterElement.classList.add("letter-element");
-      const containerDiv = document.createElement("div");
-      containerDiv.classList.add("h4-wrapper");
-      containerDiv.appendChild(letterElement);
-      document
-        .getElementById(`textContainer-h4-${index}`)
-        .appendChild(containerDiv);
+      drawLetter({
+        letter,
+        className: "h4-wrapper",
+        rootElementId: `textContainer-h4-${index}`,
+      });
     });
 
   text
     .toUpperCase()
     .split("")
     .forEach((letter) => {
-      const letterElement = document.createElement(
-        `letter-${actualLetter(letter)}`,
-      );
-      letterElement.classList.add("letter-element");
-      const containerDiv = document.createElement("div");
-      containerDiv.classList.add("h5-wrapper");
-      containerDiv.appendChild(letterElement);
-      document
-        .getElementById(`textContainer-h5-${index}`)
-        .appendChild(containerDiv);
+      drawLetter({
+        letter,
+        className: "h5-wrapper",
+        rootElementId: `textContainer-h5-${index}`,
+      });
     });
 
   text
     .toUpperCase()
     .split("")
     .forEach((letter) => {
-      const letterElement = document.createElement(
-        `letter-${actualLetter(letter)}`,
-      );
-      letterElement.classList.add("letter-element");
-      const containerDiv = document.createElement("div");
-      containerDiv.classList.add("h6-wrapper");
-      containerDiv.appendChild(letterElement);
-      document
-        .getElementById(`textContainer-h6-${index}`)
-        .appendChild(containerDiv);
+      drawLetter({
+        letter,
+        className: "h6-wrapper",
+        rootElementId: `textContainer-h6-${index}`,
+      });
     });
 });
