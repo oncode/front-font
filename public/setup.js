@@ -6,13 +6,19 @@ const texts = [
 
 const title = "FRONT FONT STYLEGUIDE";
 
+const actualLetter = (l) => {
+  if (l === " ") return "space";
+  if (l === "-") return "dash";
+  return l;
+};
+
 title
   .toUpperCase()
   .split("")
   .forEach((letter) => {
-    const actualLetter = letter === " " ? "space" : letter;
-
-    const letterElement = document.createElement(`letter-${actualLetter}`);
+    const letterElement = document.createElement(
+      `letter-${actualLetter(letter)}`,
+    );
     letterElement.classList.add("letter-element");
     const containerDiv = document.createElement("div");
     containerDiv.classList.add("h2-wrapper");
@@ -25,9 +31,9 @@ texts.forEach((text, index) => {
     .toUpperCase()
     .split("")
     .forEach((letter) => {
-      const actualLetter = letter === " " ? "space" : letter;
-
-      const letterElement = document.createElement(`letter-${actualLetter}`);
+      const letterElement = document.createElement(
+        `letter-${actualLetter(letter)}`,
+      );
       letterElement.classList.add("letter-element");
       const containerDiv = document.createElement("div");
       containerDiv.classList.add("h2-wrapper");
@@ -41,9 +47,9 @@ texts.forEach((text, index) => {
     .toUpperCase()
     .split("")
     .forEach((letter) => {
-      const actualLetter = letter === " " ? "space" : letter;
-
-      const letterElement = document.createElement(`letter-${actualLetter}`);
+      const letterElement = document.createElement(
+        `letter-${actualLetter(letter)}`,
+      );
       letterElement.classList.add("letter-element");
       const containerDiv = document.createElement("div");
       containerDiv.classList.add("h3-wrapper");
@@ -57,9 +63,9 @@ texts.forEach((text, index) => {
     .toUpperCase()
     .split("")
     .forEach((letter) => {
-      const actualLetter = letter === " " ? "space" : letter;
-
-      const letterElement = document.createElement(`letter-${actualLetter}`);
+      const letterElement = document.createElement(
+        `letter-${actualLetter(letter)}`,
+      );
       letterElement.classList.add("letter-element");
       const containerDiv = document.createElement("div");
       containerDiv.classList.add("h4-wrapper");
@@ -73,9 +79,9 @@ texts.forEach((text, index) => {
     .toUpperCase()
     .split("")
     .forEach((letter) => {
-      const actualLetter = letter === " " ? "space" : letter;
-
-      const letterElement = document.createElement(`letter-${actualLetter}`);
+      const letterElement = document.createElement(
+        `letter-${actualLetter(letter)}`,
+      );
       letterElement.classList.add("letter-element");
       const containerDiv = document.createElement("div");
       containerDiv.classList.add("h5-wrapper");
@@ -89,9 +95,9 @@ texts.forEach((text, index) => {
     .toUpperCase()
     .split("")
     .forEach((letter) => {
-      const actualLetter = letter === " " ? "space" : letter;
-
-      const letterElement = document.createElement(`letter-${actualLetter}`);
+      const letterElement = document.createElement(
+        `letter-${actualLetter(letter)}`,
+      );
       letterElement.classList.add("letter-element");
       const containerDiv = document.createElement("div");
       containerDiv.classList.add("h6-wrapper");
